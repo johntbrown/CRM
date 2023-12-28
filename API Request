@@ -1,0 +1,12 @@
+
+
+curl -XPOST 'https://api.iterable.com/api/email/target' -H 'Api-Key: YOUR_API_KEY' -d '{
+  "campaignId": 3672864,
+  "recipientEmail": "john.brown@scentbird.com",
+  "userId": "112116104261660898240",
+  "dataFields": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "purchaseAmount": 42.42
+  }
+}'
